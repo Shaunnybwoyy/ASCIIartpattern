@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        
+
         val mainView = findViewById<android.view.View>(R.id.main)
         if (mainView != null) {
             ViewCompat.setOnApplyWindowInsetsListener(mainView) { v, insets ->
